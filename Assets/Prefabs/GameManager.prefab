@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1072731607772459160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1852994444974849767}
+  - component: {fileID: 6473891571582914823}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1852994444974849767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072731607772459160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.34344846, y: 5.2120414, z: -88.34863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8793414699867691253}
+  - {fileID: 8995877773302804952}
+  - {fileID: 5620087048318189854}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6473891571582914823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072731607772459160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a60a7c89c998c4eb4d0ffed68fe534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStats:
+  - {fileID: 8793414699867691252}
+  - {fileID: 5379925402971984495}
+  - {fileID: 7880378004256641566}
+--- !u!1 &2311076288577337096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5620087048318189854}
+  - component: {fileID: 7880378004256641566}
+  m_Layer: 0
+  m_Name: Player3 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5620087048318189854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2311076288577337096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1852994444974849767}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7880378004256641566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2311076288577337096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4fe811f73ffaa4199a4a05515bf4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Loggy
+  playerLevel: 1
+  currentExp: 0
+  expToNextLevel: 
+  maxLevel: 100
+  baseExp: 100
+  expExponent: 1.15
+  currentHp: 0
+  maxHp: 150
+  currentMp: 0
+  maxMp: 25
+  mpLevelBonus: 
+  baseMp: 2
+  mpLevelBonusExponent: 1.001
+  strength: 15
+  defense: 12
+  weaponPower: 0
+  armorPower: 0
+  equippedWeaponName: 
+  equippedArmor: 
+  characterImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+--- !u!1 &3335639368235108669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1235751570331917727, guid: 4690d85272653f14b9896408280c2520,
+    type: 3}
+  m_PrefabInstance: {fileID: 2023021501718592871}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8995877773302804952}
+  - component: {fileID: 5379925402971984495}
+  m_Layer: 0
+  m_Name: Player2 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8995877773302804952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+    type: 3}
+  m_PrefabInstance: {fileID: 2023021501718592871}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3335639368235108669}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1852994444974849767}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5379925402971984495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4467911166314985714, guid: 4690d85272653f14b9896408280c2520,
+    type: 3}
+  m_PrefabInstance: {fileID: 2023021501718592871}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3335639368235108669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4fe811f73ffaa4199a4a05515bf4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Loggy
+  playerLevel: 1
+  currentExp: 0
+  expToNextLevel: 
+  maxLevel: 100
+  baseExp: 100
+  expExponent: 1.15
+  currentHp: 0
+  maxHp: 150
+  currentMp: 0
+  maxMp: 25
+  mpLevelBonus: 
+  baseMp: 2
+  mpLevelBonusExponent: 1.001
+  strength: 15
+  defense: 12
+  weaponPower: 0
+  armorPower: 0
+  equippedWeaponName: 
+  equippedArmor: 
+  characterImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+--- !u!1 &8793414699867691255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4595764692281639662, guid: c8f083224bcccaf418d66c59ec91cbc5,
+    type: 3}
+  m_PrefabInstance: {fileID: 5030260986015455769}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8793414699867691253}
+  - component: {fileID: 8793414699867691252}
+  m_Layer: 0
+  m_Name: Player1 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8793414699867691253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+    type: 3}
+  m_PrefabInstance: {fileID: 5030260986015455769}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8793414699867691255}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1852994444974849767}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8793414699867691252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4595764692281639661, guid: c8f083224bcccaf418d66c59ec91cbc5,
+    type: 3}
+  m_PrefabInstance: {fileID: 5030260986015455769}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8793414699867691255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4fe811f73ffaa4199a4a05515bf4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Tim
+  playerLevel: 1
+  currentExp: 0
+  expToNextLevel: 
+  maxLevel: 100
+  baseExp: 100
+  expExponent: 1.15
+  currentHp: 0
+  maxHp: 100
+  currentMp: 0
+  maxMp: 30
+  mpLevelBonus: 
+  baseMp: 2
+  mpLevelBonusExponent: 1.001
+  strength: 15
+  defense: 12
+  weaponPower: 0
+  armorPower: 0
+  equippedWeaponName: 
+  equippedArmor: 
+  characterImage: {fileID: 7152930139536384079, guid: 66fd0ecaed1274d439dc353e17eec618,
+    type: 3}
+--- !u!1001 &2023021501718592871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1852994444974849767}
+    m_Modifications:
+    - target: {fileID: 1235751570331917727, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_Name
+      value: Player2 Stat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643267671679066609, guid: 4690d85272653f14b9896408280c2520,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4690d85272653f14b9896408280c2520, type: 3}
+--- !u!1001 &5030260986015455769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1852994444974849767}
+    m_Modifications:
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639660, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595764692281639662, guid: c8f083224bcccaf418d66c59ec91cbc5,
+        type: 3}
+      propertyPath: m_Name
+      value: Player1 Stat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8f083224bcccaf418d66c59ec91cbc5, type: 3}
